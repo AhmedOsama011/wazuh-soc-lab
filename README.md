@@ -1,4 +1,4 @@
-# 🚀 AI-Powered SOC Automation Lab
+# 🚀 Advanced SOC Automation Lab using Wazuh, Docker, Sysmon & n8n
 
 A complete Security Operations Center (SOC) home lab built using Docker, Wazuh SIEM, Kali Linux, Windows 10, and n8n Automation.
 
