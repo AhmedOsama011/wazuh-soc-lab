@@ -213,5 +213,137 @@ This allows the lab to be deployed quickly and consistently on any supported mac
 - Threat Intelligence Ready
 
 ---
+---
+
+# 🛠 Installation Guide
+
+## 1. Clone the repository
+
+```bash
+git clone https://github.com/AhmedOsama011/wazuh-soc-lab.git
+cd wazuh-soc-lab
+```
+
+## 2. Start Docker
+
+```bash
+docker compose up -d
+```
+
+## 3. Access Wazuh Dashboard
+
+```
+https://localhost
+```
+
+## 4. Deploy Wazuh Agent
+
+Install the Wazuh Agent on the Windows endpoint and register it with the manager.
+
+## 5. Configure n8n
+
+Create a Webhook node and update the webhook URL inside the Wazuh integration configuration.
+
+## 6. Generate Test Alerts
+
+Simulate attacks from Kali Linux:
+
+- Ping Sweep
+- Nmap Scan
+- Hydra Brute Force
+- Windows Event Logs
+
+Verify that alerts appear in Wazuh and trigger the n8n workflow.
+
+---
+
+# 📚 Skills Demonstrated
+
+This project demonstrates practical experience with:
+
+- Security Operations Center (SOC)
+- SIEM Deployment
+- Docker & Docker Compose
+- Linux Administration
+- Windows Endpoint Monitoring
+- Webhook Integration
+- Security Automation
+- Incident Response
+- Threat Intelligence
+- Blue Team Operations
+- Log Analysis
+- Network Security
+
+---
+
+# 📈 Lessons Learned
+
+Building this lab improved my understanding of:
+
+- Docker networking
+- Wazuh architecture
+- Windows Event Logging
+- Endpoint monitoring
+- SIEM tuning
+- Troubleshooting containerized services
+- Webhook communication
+- Automation using n8n
+- Security event analysis
+- SOC workflows
+
+---
+
+# 🚀 Future Improvements
+
+- Multi-endpoint monitoring
+- Linux endpoint integration
+- Sysmon configuration tuning
+- VirusTotal integration
+- AbuseIPDB enrichment
+- MITRE ATT&CK mapping
+- AI-generated incident summaries
+- Slack notifications
+- Microsoft Teams integration
+- Email notifications
+- Active Response automation
+- SOAR playbooks
+
+---
+
+# 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+# 👨‍💻 About the Author
+
+**Ahmed Osama**
+
+SOC Analyst | Blue Team | Network Security
+
+Fresh Graduate – Faculty of Electronic Engineering
+
+Interested in:
+
+- SOC Operations
+- Detection Engineering
+- Security Automation
+- Threat Hunting
+- Incident Response
+- Cloud Security
+
+---
+
+# 🤝 Connect With Me
+
+- LinkedIn: *(Add your LinkedIn URL here)*
+- GitHub: https://github.com/AhmedOsama011
+
+---
+
+# ⭐ Support
+
+If you found this project useful, consider giving it a ⭐ on GitHub.
 
 ---
